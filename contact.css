@@ -32,13 +32,14 @@ body {
 .heading {
   font-size: 5rem;
   padding: 3rem;
-  font-family: "Pinyon script";
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .contact {
   padding: 0.8rem;
   border-radius: 10px 100px / 120px;
-  border: 2.5px solid #80ed999f;
+  border-radius: 50px;
+  /*border: 2.5px solid #80ed999f;*/
   background-color: #e6f5f936;
 }
 
@@ -51,7 +52,7 @@ body {
   flex-direction: column;
   /*background: linear-gradient(to bottom, #0b0d7e, #023e8a, #0077b6, #9fecfc);*/
   /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
-  background: linear-gradient(to bottom, #0096c7, #0077b6, #48cae4);
+  background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
 }
 
@@ -76,15 +77,15 @@ body {
   color: white;
   padding: 1.35rem;
   display: block;
-  font-family: "Raleway";
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.4rem;
 }
 
 .nav-links a:hover {
-  transform: translateY(-2px);
+  /*transform: translateY(-2px);*/
   /*så den åker upp lite när man hovrar*/
   transition: 1s;
-  color: #80ed99;
+  color: white;
 }
 
 .nav-links.active {
@@ -330,7 +331,7 @@ footer {
     /*flex-direction: row;*/
     font-weight: 500;
     padding-left: 1rem;
-    background: linear-gradient(to bottom, #0096c7, #0077b6, #48cae4);
+    background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
     color: white;
   }
 

@@ -1,0 +1,49 @@
+{
+  "Education": [
+    {
+      "heading": "2022-2024 Chas Academy",
+      "text": ".NET Fullstack"
+    },
+    {
+      "heading": "2022-2024 It-högskolan",
+      "text": "Javautvecklare"
+    },
+    {
+      "heading": "2021-2022 Udemy",
+      "text": "Onlinekurser i programmering"
+    },
+    {
+      "heading": "2021 Stockholms univeristet",
+      "text": "Offentlig upphandling 15hp"
+    },
+    {
+      "heading": "2016-2021 Stockholms univeristet",
+      "text": "Juristexamen, 270hp,"
+    },
+    {
+      "heading": "1997-1999 Fredrika Bremergymnasiet",
+      "text": "Företagsekonomiskt gymnasieprogram"
+    }
+  ],
+  "Employment": 
+  [
+    {
+      "heading": "2017-2018 Nova hemtjänst",
+      "text": "Vårdgivare, extrajobb"
+    },
+    {
+      "heading": "2013-2016 Aleris hemtjänst",
+      "text": "Vårdgivare, extrajobb"
+    },
+    {
+      "heading": "2005-2014, Ekonomiansvarig, Cupita Transport AB",
+      "text": "Jag hade ansvar för redovisning, bokföring och revisorskontakt. Utförde löneutbetalningar, fakturakontroller och administrativa uppgifter"
+    },
+
+    {
+      "heading": "2000-2004, Avdelningsansvarig, Sabis",
+      "text": "Jag var mejeriansvarig, tog hand om beställningar, säljarkontakt och organisering. Ökade avdelninges omsättning med 20% och vann säljtävlingen Arlakannan."
+    }
+  ]
+}
+

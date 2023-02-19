@@ -68,7 +68,7 @@ body {
   color: white;
   padding: 1.35rem;
   display: block;
-  font-family: "Raleway";
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.4rem;
 }
 
@@ -123,10 +123,11 @@ body {
 .presentation {
   padding: 0.8rem;
   border-radius: 10px 100px / 120px;
-  border: 2.5px solid #e6f5f979;
-  border: 2.5px solid #80ed999f;
+  border-radius:50px;
+
   background-color: #e6f5f936;
-  border: 2.5px solid #d2bd93;
+  /*border: 2.5px solid #d2bd93;*/
+  
 }
 
 /*.presentation:hover {
@@ -143,12 +144,15 @@ body {
   align-items: center;
 }
 main {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color: rgb(65, 65, 65);
   box-shadow: 1px 1px 50px #cccccc;
+  font-family: Raleway;
+  line-height: 1.5;
 }
 
 h2 {
-  font-size: 50px;
+  font-size:3rem;
   font-weight: 300;
   color: #a69064;
   line-height: 1.7px;
@@ -224,6 +228,10 @@ footer {
     display: flex;
     flex-direction: row;
   }
+  .nav-links li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+  }
 
   .toggle-button {
     display: none;
@@ -231,6 +239,7 @@ footer {
 
   h2 {
     margin-bottom: 2rem;
+      font-size:4rem;
   }
 
   .my-pic2 {
@@ -260,6 +269,12 @@ footer {
     flex-direction: row;
     /*align-items: center;*/
   }
+  p{
+    font-family: Raleway;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    color:black;
+  }
 }
 @media screen and (min-width: 992px) {
   body {
@@ -277,12 +292,17 @@ footer {
     align-items: center;
   }*/
   .nav-links li a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
   }
+  
 
   h1 {
     font-size: 7rem;
     text-align: center;
+  }
+
+  h2 {
+    font-size:4rem;
   }
 }

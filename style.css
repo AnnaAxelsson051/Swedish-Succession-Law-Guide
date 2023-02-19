@@ -117,9 +117,9 @@ body {
   /*border-radius: 10px 100px / 120px;*/
   /*border: 2.5px solid #e6f5f979;*/
   border-radius:50px;
-  border: 2.5px solid #80ed999f;
+  /*border: 2.5px solid #80ed999f;
   border: 2.5px solid #a69064;
-  border: 2.5px solid #d2bd93;
+  border: 2.5px solid #d2bd93;*/
   background-color: #e6f5f936;
 }
 
@@ -416,7 +416,7 @@ footer {
   }
 
   .nav-links li a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
   }
 

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;600;700&family=Herr+Von+Muellerhoff&family=Ibarra+Real+Nova:wght@500;600;700&family=Pinyon+Script&family=Playfair+Display:wght@400;500;900&family=Questrial&family=Raleway:wght@200;300;800;900&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link href="precedents.css" rel="stylesheet" />
+    <script src="home.js" defer></script>
+    <title>CV</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="heading">Articles</div>
+      <a href="#" class="toggle-button">
+        <img src="burger-menu.png" alt="menu-icon" class="menu-icon" />
+      </a>
+
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT THE FIRM</a>
+          </li>
+          <li>
+            <a href="services.html">OUR SERVICES</a>
+          </li>
+          <li>
+            <a href="news.html">WHAT'S NEW</a>
+          </li>
+          <li>
+            <a class="articles" href="precedents.html">PRECEDENTS</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+        <div class="publish-line-top"></div>
+        <div class="publish-container"><p class="publish-author-date">Anna Axelsson</p>
+        <p class="publish-author-date">Published: 9 Feb 2023</p></div>
+        <div>
+            <div class="publish-line-bottom"></div>
+<p class="headline-main">Hur fungerar en webläsare?</p>
+<br>
+<p class="headline-smaller">Introduktion</p>
+<br>
+   <p>
+    En webläsaren gör det möjligt att hämta information från andra delar av internet via en
+    server och visa den på valfri mobil eller datorenhet. Vi är alla idag så vana vid att bara
+    kunna klicka oss fram på internet och smidigt växla mellan olika sidor. Men vad händer
+    egentligen bakom kulissen när webläsaren arbetar och vad krävs för att websidor ska
+    kunna genereras och bli synliga för oss? I det här artikel ska det belysas.
+</p>
+<br>
+<p class="headline-smaller">Webläsarens olika lager</p>
+<br>
+<p>Webläsarens struktur består av flera lager - Närmast användaren ligger användargränssnittet 
+    som utgörs av allt utom den del som visar själva hemsidans innehåll. Användargränssnittet 
+    inkluderar med andra ord bland annat bokmärken, adressfält samt fram och tillbakaknappar och 
+    ger användaren möjlighet att interagera med webläsaren.</p>
+    <br>
+<p>Andra viktiga delar och som är mer dolda för användaren utgörs av bland annat browser engine och 
+    rendering engine. Den senare ansvarar för att visa innehållet på den valda sidan och 
+    fungerar som en analyserare av både Html och Css. Browser engine utgör länken mellan 
+    användargränssnittet och rendering engine och manipulerar rendering engine i enlighet med 
+    den information som genereras i och med användarens aktivitet på websidan.</p>
+    <br>
+<p>Ytterligare en viktig komponent i webläsaren är
+    säkerheten. Användargränssnittets backend-del ansvarar för utritning av widgets som
+    Networking som står för hämtningen av
+    URL’s med hjälp av Http protokollet och hanterar förutom kommunikationen även
+    kombo boxar och fönster och Javascript-tolkaren i sin tur för att analysera Javascriptkod.
+    Det finns också ett datalagringslager som hanterar kakor och annan lokalt sparad data.</p>
+    <br>
+    <p class="headline-smaller">Vad sker i webläsaren då ett program körs?</p>
+    <br>
+<p>Då ett program körs skapas en process som kör programmet. I en sådan process kan det
+    finnas en eller flera trådar som skapats av programmet och som varje har till uppdrag att
+    utföra någon del av processen, och som kan kommunicera med varandra med hjälp av
+    IPC. Trådar utför kod i programmet och webläsaren använder main tråden för att hantera
+    knapptryck och interaktioner från användaren och för att ta fram och måla upp sidan och
+    köra det mesta av den koden som websidan eller appen består av
+    När man stänger
+    programmet stängs både process och trådar.</p>
+    <br>
+<p>Exempelvis om man ska spara stora filer kan det vara av vikt att programmet startar en ny
+    tråd för att spara med i syfte att undvika att det visuella gränssnittet blir lidande, men
+    även om programmet ska ha andra typer av funktioner kan det vara användbart. Google
+    chrome använder sig exempelvis av så kallad multiprocessarkitektur vilket innebär att när
+    renderar processen startas startar flera processer och varje process får en tab att ansvara
+    för. Renderaren kontrollerar sedan allt i tabben där websidan syns.</p>
+    <br>
+    <p class="headline-smaller">Http protokollet</p>
+    <br>
+    <p>För att förstå hur en webläsare fungerar är det viktigt att förutom att ha kännedom om
+        webläsarens struktur, processer och trådar veta vad Http protokollet är. Http står för
+        Hypertext Transfer Protocol och ingår i protocol suite. Http protokollet används som ett
+        av de vanligaste sätten att sända text, bilder och video över internet. Det gör det bland
+        annat möjligt för människor att
+        kommunicera data över internet och överföra hyepertext meddelanden och på så vis interagera med innehåll på websidor så som HTML, PDF filer
+        eller annat innehåll.</p>
+        <br>
+    <p>Http protokollet har byggts ovanpå TCL/IP protokollen och bidrar kort sagt med en
+        nätverksprotokollstandard som webläsare använder för att kommunicera med servers i
+        syfte att kunna generera websidor. Den första versionen av Http utvecklades 1996 och
+        det kommer fram tills idag ständigt nya versioner.</p>
+        <br>
+    <p>När en användare skriver in en URL, Uniform Resource Locator, eller följer en länk i
+        syfte att besöka en websida används Http för att ladda den önskade sidan. URL’en inleds
+        med ”http” vilket instruerar webläsaren att Http ska användas för att hämta dokumentet
+        till just den URL’en. Webläsaren använder i sin tur en DNS resolver för att kartlägga
+        domän och IP-adress. Så fort webläsaren identifierat en IP-adress skickar den ett Http
+        request.</p>
+        <br>
+        <p class="headline-smaller">Vad är ett http request?</p>
+        <br>
+    <p>Ett Http request är ett meddelande som sänds från en dator till en annan med hjälp av Http 
+        protokollet. Klienten sänder själva requestet och den mottagande APIN processerar sedan 
+        detta och återger ett Http svar. Denna typ av meddelanden har en bestämd struktur som består 
+        av en request rad, ett set av header fält och en frivillig body. Vilken exakt form ett sådant 
+        meddelande ska ha för att vara korrekt beror även på det aktuella Http protokollets version, 
+        eller specifikation, som för närvarande används av klient respektive och server.</p>
+        <br>
+    <p>Svaret som sänds till klienten, det vill säga status koden, utgörs av ett tresiffrigt nummer
+        och följs av en reason fras även kallad statustext som summerar betydelsen av koden.
+        Tillsammans med Http versionen av svaret placeras denna information i första raden av
+        svaret som även kallas statusraden. Varje Http request befinner sig i ett IP paket och varje
+        Http svar I ett annat sådant</p>
+        <br>
+    <p>Det finns tre typer av vanligast Http meddelanden, de utgörs av bland annat GET som
+        skickas till en server innehållande endast en URL, POST som innehåller valfria
+        dataparametrar i requestmeddelandets body och HEAD som fungerar likt GET men där
+        endast header information i HTML sektionen återsänds av servern. Det finns också en rad
+        andra typer av meddelanden och alla Http servrar använder GET och HEAD metoderna
+        men inte alla supportar resterande metoder.</p>
+        <br>
+        <p class="headline-smaller">Http requests i olika sammanhang</p>
+        <br>
+    <p>Http requests sker i en rad olika sammanhang. Från front end till server sker det när
+        användaren exempelvis klickar på en knapp och skickas vidare till en annan sida. Det sker
+        Vad gäller backend sker kommunikation med en server över Http protkollet för att exempelvis ladda ner eller
+       ladda upp data eller för att få tillgång till olika backend funktioner. När det kommer till backend och API’er 
+       sker kommunikationen mellan klient och API med hjälp av Http requests.</p>
+       <br>
+       <p class="headline-smaller">Misslyckad hämtning</p>
+       <br>
+    <p>Om servern misslyckas med att hämta dokumentet ger statuskoden information om detta
+        samt skälet till felet, och ett meddelande om felet uppenbarar sig vanligtvis för
+        användaren på skärmen. Det kan finnas flera skäl till att Http meddelanden misslyckas -
+        att filen inte hittas kan vara ett skäl, ett annat kan vara fel vid skapandet av websidan eller
+        tillfälliga nätverksglapp. Det kan också vara så att webläsaren eller servern inte fungerar
+        som de ska.</p>
+        <br>
+    <p> Om det sker en lyckad uppkoppling stängs Http kopplingen så fort requestet fullgjorts 
+        eftersom Http är ett så kallat stateless system.</p>
+        <br>
+        <p class="headline-smaller">Rendering av den synliga websidan</p>
+        <br>
+    <p>Om Http requestet inte resulterade i ett felmeddelande kan websidan laddas. Bakom laddandet av en 
+        websida finns en rad processer där samverkan sker mellan en mängd olika bestådsdelar i webläsaren.</p>
+<p>
+    <br>
+    Efter att webläsaren skickat ett Http request till en server om att hämta ett HTML document som representerar 
+    den specifika sidan besökaren vill hämta analyseras denna fil och webläsaren gör ytterligare requests 
+    för att erhålla eventuella Javascriptfiler eller layout information i form av Css, om sådana taggar 
+    påträffas i HTML filen. Om en script tag hittas pausas processen tills scripten lästs och tolkats av 
+    Javascript tolkaren (om inte nyckelordet async påträffas) eftersom Javascript kan ändra både Html 
+    och Css.</p>
+    <br>
+
+<p>Javascript tolkaren skickar sedan resultaten vidare till rendering engine. Rendering engine står här 
+    för renderingen av websidan rent visuellt genom att tolka HTML och XML dokument och generera bilder
+     med hjälp av Css.</p>
+     <br>
+     <p class="headline-smaller">Document object model</p>
+     <br>
+<p>Webläsaren behöver för att konstruera websidan en så kallad DOM document objekt
+    model som sedan vidare bearbetas till tokens. Själva DOM-konstruktionen sker genom att råa bytes av HTML data först konverteras till characters 
+    som sedan vidare bearbetas till tokens. Tokens konverteras till
+    noder vilka länkas i en träd-data struktur som representerar DOM’en. I DOM’en etableras
+    sedan föräldra-barn och syskonrelationer mellan node-objekten. Denna process sker med
+    både med HTML bytes och Css bytes, och i Css fallet blir resultatet en Css object model,
+    CSSOM.</p>
+    <br>
+<p> Webläsaren kombinerar sedan DOM och CSSOM till ett render tree och renderer därefter
+</p>
+<br>
+<p class="headline-smaller">Slutord</p>
+<br>
+<p>Som det går att se finns det mycket som sker bakom kulisserna när vi navigerar mellan
+    olika sidor på internet. Särskilt inom mjukvaruutveckling kan det vara bra att ha vetskap
+    om alla dessa processer eftersom det med denna kunskap i bakhuvudet finns mycket man
+    kan göra för att optimera sin kod, undvika att onödiga glapp uppstår och att se till så att
+    användaren inte lämnas ovetande om något går fel.</p>
+
+
+
+    </div>
+</section>
+
+    <footer>&copy; 2022 Anna Axelsson</footer>
+  </body>
+</html>
