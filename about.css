@@ -100,13 +100,43 @@ body {
   height: auto;*/
 }
 
-/*.toggle-button .bar {
-  height: 4px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-  z-index: 10;
-}*/
+.who-we-are-headline{
+color: #a69064;
+font-size:4rem;
+}
+
+.who-we-are-text{
+text-align: justify;
+}
+
+.grid-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.pic1{
+  background-image: url(lawyer12.png);
+  background-size: cover;
+  /*height:6rem;*/
+  width:auto;
+}
+
+.pic2{
+  background-image: url(lawyer6.png);
+  background-size: cover;
+  /*height:6rem;*/
+  width:auto;
+
+}
+
+.grids{
+  margin:2rem;
+  padding:2rem;
+  width:24rem;
+  height:30rem;
+  background-color: beige;
+
+}
 
 .my-pic3 {
   display: none;
