@@ -208,6 +208,31 @@ main {
   padding: 2rem;
 }
 
+.our-vision-container{
+  margin:5rem;
+}
+
+h2 {
+  font-size:4rem;
+  font-weight: 300;
+  color: #a69064;
+  line-height: 1.7px;
+  text-align: left;
+  /*padding: 5rem;*/
+  margin-top: 8rem;
+  font-family: "Raleway";
+}
+
+.our-vision-text{
+  font-size: 1.5rem;
+  color: rgb(65, 65, 65);
+  font-family: Raleway;
+  line-height: 1.5;
+}
+
+.our-vision-text{
+  text-align: justify;
+}
 
 /*Symbols moving*/
 
