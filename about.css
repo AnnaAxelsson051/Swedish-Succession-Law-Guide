@@ -114,29 +114,48 @@ text-align: justify;
   flex-direction: row;
 }
 
-.pic1{
+.lawyer-description{
+  width:28rem;
+  padding: 3rem;
+}
+
+h3{
+  padding-left: 3rem;
+}
+
+/*.pic1{
   background-image: url(lawyer12.png);
-  background-size: cover;
-  /*height:6rem;*/
-  width:auto;
-}
+}*/
 
-.pic2{
+/*.pic2{
   background-image: url(lawyer6.png);
-  background-size: cover;
-  /*height:6rem;*/
-  width:auto;
-
-}
+}*/
+/*.pic3{
+  background-image: url(lawyer1.png);
+}*/
 
 .grids{
   margin:2rem;
-  padding:2rem;
-  width:24rem;
-  height:30rem;
+  padding:1rem;
+  /*ger ram runt grids*/
+  /*border: 1px solid #e2d1ad;*/
+  background-size: cover;
+  width:auto;
+  width:28rem;
+  height:35rem;
   background-color: beige;
 
 }
+
+/*
+.pic3{
+  background-image: url(lawyer1.png);
+  background-size: cover;
+  
+  width:auto;
+
+}*/
+
 
 .my-pic3 {
   display: none;
@@ -182,13 +201,13 @@ main {
 }
 
 h2 {
-  font-size:3rem;
+  font-size:5rem;
   font-weight: 300;
   color: #a69064;
   line-height: 1.7px;
   text-align: left;
   padding: 5rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-family: "Raleway";
 }
 p {
@@ -336,3 +355,4 @@ footer {
     font-size:4rem;
   }
 }
+
