@@ -17,26 +17,7 @@ html {
   min-height: 100vh;
 }
 
-/*header {
-  grid-area: header;
-  background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
 
-h1 {
-  color: #e6f5f9;
-  font-size: 5rem;
-  font-weight: 400;
-  letter-spacing: 0.5rem;
-  font-family: "Pinyon script";
-  text-align: center;
-  padding: 3rem;
-
-  
-}*/
 
 body {
   margin: 0;
@@ -167,6 +148,10 @@ aside {
   padding: 2.5rem;
   line-height: 1.5;
   box-shadow: 1px 1px 50px #cccccc;
+}
+
+.news-article-heading{
+  color: black;
 }
 
 /*******fetch repos section******/
