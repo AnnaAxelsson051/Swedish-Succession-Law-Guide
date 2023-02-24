@@ -124,7 +124,7 @@ body {
 main {
   background-image: url(pillars.png);
   background-size: cover;
-  height: 100vh;
+  height: 200vh;
   width:100vw;
 }
 
