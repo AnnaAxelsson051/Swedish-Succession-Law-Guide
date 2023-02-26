@@ -52,6 +52,7 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
+  
   /*background: linear-gradient(to bottom, #0b0d7e, #023e8a, #0077b6, #9fecfc);*/
   /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
@@ -141,6 +142,7 @@ main {
   line-height: 1.5;
   font-size: 1.6rem;
   color: black;
+  word-spacing: normal;
 }
 
 .grid {
@@ -194,48 +196,51 @@ main {
 }
 
 .Fördelning-av-arv-bakgrund {
-  background-image: url(lawyer1.png);
+  background-color: rgba(119, 118, 118, 0.718);
+  background-image: url(pen2.png);
   background-image: linear-gradient(
       to right,
       #f6f4f0,
       rgba(249, 249, 249, 0.13)
     ),
-    url(lawyer1.png);
+    url(pen2.png);
   background-size: cover;
 }
 
 .Upprätta-testamente-bakgrund {
-  background-image: url(lawyer10.png);
+  background-image: url(pen1.png);
   background-image: linear-gradient(
       to right,
       #f6f4f0,
       rgba(249, 249, 249, 0.13)
     ),
-    url(lawyer10.png);
+    url(pen1.png);
   background-size: cover;
   /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
 }
 
 .Ogiltighet-förverkande-återkallelse-bakgrund {
-  background-image: url(lawyer14.png);
+  background-color: rgba(119, 118, 118, 0.718);
+  background-image: url(pen2.png);
   background-image: linear-gradient(
       to right,
       #f6f4f0,
       rgba(249, 249, 249, 0.13)
     ),
-    url(lawyer14.png);
+    url(pen2.png);
   background-size: cover;
   /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
 }
 
 .Nödfallstestamente-bakgrund {
-  background-image: url(lawyer16.png);
+  background-color: rgba(119, 118, 118, 0.718);
+  background-image: url(pen2.png);
   background-image: linear-gradient(
       to right,
       #f6f4f0,
       rgba(249, 249, 249, 0.13)
     ),
-    url(lawyer16.png);
+    url(pen2.png);
   background-size: cover;
 }
 
@@ -246,7 +251,7 @@ hover,active*/
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-top: 1.6rem;
+  /*margin-top: 1.6rem;*/
   text-decoration: none;
   text-align: center;
   font-size: 1.3rem;
