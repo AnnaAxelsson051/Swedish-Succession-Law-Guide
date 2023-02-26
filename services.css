@@ -111,8 +111,6 @@ body {
 
 .cv {
   padding: 0.8rem;
-  border-radius: 10px 100px / 120px;
-  /*border: 2.5px solid #e6f5f979;*/
   border-radius:50px;
   /*border: 2.5px solid #80ed999f;*/
   background-color: #e6f5f936;
