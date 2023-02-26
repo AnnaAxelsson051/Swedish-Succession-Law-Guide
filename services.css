@@ -124,31 +124,214 @@ body {
 main {
   background-image: url(pillars.png);
   background-size: cover;
-  height: 200vh;
+  height: 230vh;
   width:100vw;
 }
 
-.grid-container{
+.rut-sektion {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.rut-sektion div div {
+  padding: 3.5rem;
+  /*ger storleken på de individuella rutornas yttre kant*/
+  line-height: 1.5;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+  margin-left:2rem;
+  margin-right:3.5rem;
+}
+
+.Rut-rubriker {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #211d14;
+  color: black;
+  padding-bottom: .5rem;
+}
+
+.genomskinlig {
+  border: 1.4px solid white;
+  transition: all 2.2s;
+}
+
+.genomskinlig:hover {
+  border: 1.4px solid white;
+  background-color: #f6f4f06e;
+  background-color: #f6f4f0;
+  background-color: #e5e5e38a;
+  /*gör bakgrundsbilden ljusare vid hover*/
+  transform: translatey(-0.3rem);
+  /*makes den inre genomskinliga gå upp lite när man hovrar(translatex är åt sidan)*/
+  /*transform: scale(1.05);
+  förstorar rutan*/
+}
+
+/*texterna*/
+.Fördelning-av-arv-p,
+.Upprätta-testamente-p,
+.Ogiltighet-förverkande-återkallelse-p,
+.Nödfallstestamente-p,
+.Testamentsrätten-och-tekniken-p {
+  text-decoration: none;
+  color: #211d14;
+  color: #110e0a;
+  /*font-size: 1.7rem;*/
+  font-weight: 400;
+  text-align: justify;
+  /*line-height: 1.6;*/
+}
+
+.Fördelning-av-arv-bakgrund {
+  background-image: url(lawyer1.png);
+  background-image: linear-gradient(
+      to right,
+      #f6f4f0,
+      rgba(249, 249, 249, 0.13)
+    ),
+    url(lawyer1.png);
+  background-size: cover;
+}
+
+.Upprätta-testamente-bakgrund {
+  background-image: url(lawyer10.png);
+  background-image: linear-gradient(
+      to right,
+      #f6f4f0,
+      rgba(249, 249, 249, 0.13)
+    ),
+    url(lawyer10.png);
+  background-size: cover;
+  /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
+}
+
+.Ogiltighet-förverkande-återkallelse-bakgrund {
+  background-image: url(lawyer14.png);
+  background-image: linear-gradient(
+      to right,
+      #f6f4f0,
+      rgba(249, 249, 249, 0.13)
+    ),
+    url(lawyer14.png);
+  background-size: cover;
+  /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
+}
+
+.Nödfallstestamente-bakgrund {
+  background-image: url(lawyer16.png);
+  background-image: linear-gradient(
+      to right,
+      #f6f4f0,
+      rgba(249, 249, 249, 0.13)
+    ),
+    url(lawyer16.png);
+  background-size: cover;
+}
+
+/*link,visited
+hover,active*/
+.Läs-mer-knapp:link,
+.Läs-mer-knapp:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.6rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  padding: 10px 26px;
+  color: #322b1e;
+  /*background-color: #a69064;*/
+  background-image: linear-gradient(to bottom, #c1b193, #a69064);
+  cursor: pointer;
+  border: 0.3px solid #fff8eca2;
+  transition: all 0.2s;
+  z-index: 1;
+}
+
+.Läs-mer-knapp:hover,
+.Läs-mer-knapp:active {
+  background-image: linear-gradient(to bottom, #f6f4f0ba, #f6f4f00b, #f6f4f00b);
+  background-color: #f6f4f00b;
+  background-color: #38d9a9;
+  background-color: #20c997;
+  color: white;
+  transition: 0.3s;
+}
+
+.Läs-mer-knapp:hover {
+  transform: translateY(-3px);
+  z-index: 1;
+  box-shadow: 0 10px 20px #110e0a35;
+  /*första värdet är skuffa i x riktning, 2a är skudda i y riktning nedåt, tredje värdet är blurret i skuggan*/
+}
+
+.Läs-mer-knapp:active {
+  transform: translateY(-1px);
+  /*så att den åker ned lite när man trycker*/
+  box-shadow: 0 5px 10px #110e0a6b;
+  /*första värdet är skuffa i x riktning, 2a är skudda i y riktning nedåt, tredje värdet är blurret i skuggan*/
+}
+
+.ruta-flex {
+  /*flexar knapp och text*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+.Streck-mellan-2-och-3-parsrutor {
+  height: 5px;
+  width: 150px;
+  background-color: #f6f4f0;
+  background-color: #a69064;
+  margin-left: 575px;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}*/
+/*.grid-container{
   display: flex;
   flex-direction: row;
+  margin-left:3rem;
+  margin-right:3rem;
 }
 
 .grids{
   margin:2rem;
-  /*padding:2rem;*/
-  width:35rem;
-  height:35rem;
+  
+  width:33rem;
+  height:33rem;
   background-color: beige;
 }
 
+.top-grids{
+  margin-top: 3.5rem;
+}
+
 .inner-grid{
- margin-left:2.2rem;
- margin-top:2.2rem;
-  border:2px solid black;
+ margin-top:2.5rem;
+ margin-left:2.5rem;
+ margin-bottom:3rem;
+ margin-right:3rem;
+  
   width:30rem;
   height:30rem;
-
-}
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}*/
 
 
 
