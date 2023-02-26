@@ -283,6 +283,12 @@ h2 {
   }
 }*/
 
+.pic-beside-text{
+  background-image: url(pen2.png);
+  width:22rem;
+  height:25rem;
+}
+
 footer {
   grid-area: footer;
   padding: 3rem;
