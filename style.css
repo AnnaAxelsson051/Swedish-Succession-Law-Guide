@@ -67,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  
 }
 
 .nav-links li {
@@ -314,6 +315,7 @@ footer {
 
   .navigation {
     justify-content: space-between;
+    /*align-items: left;*/
     align-items: center;
     /*flex-direction: row;*/
     font-weight: 500;
@@ -444,6 +446,7 @@ footer {
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
+
 
   .main-heading {
     font-size: 7rem;
