@@ -37,9 +37,11 @@ body {
 
 .main-heading {
   font-size: 4rem;
+  font-size: 4rem;
   padding: 3rem;
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 5px;
+ 
   
   
 }
@@ -228,66 +230,18 @@ h2 {
   font-size: 1.5rem;
   color: rgb(65, 65, 65);
   font-family: Raleway;
-  line-height: 1.5;
-}
-
-.our-vision-text{
   text-align: justify;
+  line-height: 1.8rem;
 }
 
-/*Symbols moving*/
 
-/*@keyframes moveInLeft1 {
-  0% {
-    opacity: 0;
-    /*att den först ska va osynlig*/
-    /*transform: translateX(-100px);
-    /*translates it in the x direction, and makes it be more to the left on x asis*/
-  /*}
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
 
-@keyframes moveInRight1 {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}*/
-
+/*
 .pic-beside-text{
   background-image: url(pen2.png);
   width:22rem;
   height:25rem;
-}
+}*/
 
 footer {
   grid-area: footer;
@@ -321,9 +275,12 @@ footer {
 
   .navigation {
     justify-content: space-between;
-    /*align-items: left;*/
     align-items: center;
-    /*flex-direction: row;*/
+    flex-direction: row;
+    /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
+    padding-right:1rem;
+    /*VADDERAR PÅ HÖGER SIDA AV NAV*/
+
     font-weight: 500;
     padding-left: 1rem;
     /*background: linear-gradient(to bottom, #0096c7, #0077b6, #48cae4);*/
@@ -333,8 +290,10 @@ footer {
 
 
   .main-heading {
-    font-size: 5rem;
+    font-size: 4rem; /*VAR 5 INNAN*/
     padding-top: 2rem;
+    
+    
   }
 
   .nav-links {
@@ -383,54 +342,7 @@ footer {
     top: 48%;
   }
 
-  /*.symbol-css {
-    height: 4rem;
-    width: auto;
-    right: 18%;
-    top: 54%;
-  }
 
-  .symbol-c {
-    height: 4rem;
-    width: auto;
-    right: 30%;
-    top: 22%;
-  }
-
-  .symbol-java {
-    height: 6rem;
-    width: auto;
-    right: 36%;
-    top: 17%;
-  }
-
-  .symbol-html {
-    height: 4.5rem;
-    width: auto;
-    right: 22%;
-    top: 17%;
-  }
-
-  .symbol-js {
-    height: 3rem;
-    width: auto;
-    right: 16%;
-    top: 24%;
-  }
-
-  .symbol-py {
-    height: 3rem;
-    width: auto;
-    right: 26%;
-    top: 57%;
-  }
-
-  .symbol-git {
-    height: 4rem;
-    width: auto;
-    right: 9%;
-    top: 43%;
-  }*/
 }
 @media screen and (min-width: 992px) {
   body {
@@ -455,7 +367,8 @@ footer {
 
 
   .main-heading {
-    font-size: 7rem;
+    font-size: 4rem;
+    /*VAR 7 INNAN*/
     padding-top: 2rem;
   }
   /*moving symbols*/
