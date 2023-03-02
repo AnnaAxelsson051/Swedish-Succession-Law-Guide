@@ -211,8 +211,30 @@ main {
   padding: 2rem;
 }
 
+.intro-container{
+  margin:8rem;
+  /*padding: 5rem;*/
+  /*border: 1px solid grey;*/
+}
+
+h2{
+  padding-bottom: 2rem;
+}
+
+.intro-text{
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-family: 'Raleway';
+  text-align: justify;
+}
+
+
+
+
+
 .our-vision-container{
   margin:5rem;
+  line-height: 1.5rem;
 }
 
 h2 {
@@ -318,6 +340,7 @@ footer {
     font-family: "Raleway";
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    font-size:1.7rem;
   }
 
   .text-on-pic {
