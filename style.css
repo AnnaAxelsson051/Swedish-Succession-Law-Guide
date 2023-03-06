@@ -1,11 +1,11 @@
-/**,
+*,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   box-sizing: inherit;
-}*/
+}
 
 html {
   font-size: 62.5%;
@@ -36,7 +36,6 @@ body {
 }
 
 .main-heading {
-  font-size: 4rem;
   font-size: 4rem;
   padding: 3rem;
   font-family: 'Times New Roman', Times, serif;
@@ -394,53 +393,5 @@ footer {
     /*VAR 7 INNAN*/
     padding-top: 2rem;
   }
-  /*moving symbols*/
-  /*.symbol-css {
-    height: 5rem;
-    width: auto;
-    right: 18%;
-    top: 54%;
-  }
-
-  .symbol-c {
-    height: 5rem;
-    width: auto;
-    right: 30%;
-    top: 22%;
-  }
-
-  .symbol-java {
-    height: 7rem;
-    width: auto;
-    right: 36%;
-    top: 17%;
-  }
-
-  .symbol-html {
-    height: 5.5rem;
-    width: auto;
-    right: 22%;
-    top: 17%;
-  }
-
-  .symbol-js {
-    height: 4rem;
-    width: auto;
-    right: 16%;
-    top: 24%;
-  }
-
-  .symbol-py {
-    height: 4rem;
-    width: auto;
-    right: 26%;
-    top: 57%;
-  }
-
-  .symbol-git {
-    height: 4.5rem;
-    width: auto;
-    right: 10%;
-    top: 43%;
-  }*/
+  
 }

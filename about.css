@@ -22,10 +22,11 @@ body {
   display: grid;
   /*min-height: 100vh;*/
   grid-template-columns: 100%;
-  grid-template-rows: auto auto 1.5rem;
+  grid-template-rows: auto auto auto 1.5rem;
   grid-template-areas:
     "nav"
     "main"
+    "section"
     "footer";
 }
 
@@ -282,9 +283,17 @@ footer {
     display: flex;
     flex-direction: row;
   }
+
+
   .nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1.35rem;
+    display: block;
+    font-family: "Raleway";
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    font-size:1.7rem;
   }
 
   .toggle-button {
@@ -341,15 +350,11 @@ footer {
       "main main"
       "footer footer";
   }
-
-  /*.main-nav-list {
-    align-items: center;
-  }*/
+´
   .nav-links li a {
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
-  
 
   h1 {
     font-size: 7rem;

@@ -44,9 +44,10 @@ body {
 }
 
 .heading {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 3rem;
   font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
 }
 
 .navigation {
@@ -57,6 +58,10 @@ body {
   /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
+  flex-direction: row;
+  /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
+  padding-right:1rem;
+  /*VADDERAR PÅ HÖGER SIDA AV NAV*/
 }
 
 .nav-links ul {
@@ -353,8 +358,24 @@ footer {
     flex-direction: row;
   }
 
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1.35rem;
+    display: block;
+    font-family: "Raleway";
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-size:1.7rem;
+  }
+
   .toggle-button {
     display: none;
+  }
+
+  .heading{
+    font-size: 4rem; /*VAR 5 INNAN*/
+    padding-top: 2rem;
   }
   .skills-container{
     flex-direction: row;
@@ -389,7 +410,12 @@ footer {
       "footer footer";
   }
   .nav-links li a {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
+  }
+
+  .heading{
+    font-size: 4rem;
+    padding-top: 2rem;
   }
 }
