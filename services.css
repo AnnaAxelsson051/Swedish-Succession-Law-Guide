@@ -10,16 +10,11 @@
 html {
   font-size: 62.5%;
   /*equals 10px*/
-  font-size: 68%;
 }
 
 body,
 html {
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3rem;
 }
 
 body {
@@ -42,6 +37,10 @@ body {
   filter: saturate(3.2);
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 .heading {
     font-size: 4rem;
   padding: 3rem;
@@ -53,14 +52,9 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  
-  /*background: linear-gradient(to bottom, #0b0d7e, #023e8a, #0077b6, #9fecfc);*/
-  /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
-  flex-direction: row;
    /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
-   padding-right:1rem;
    /*VADDERAR PÅ HÖGER SIDA AV NAV*/
 }
 
@@ -86,8 +80,6 @@ body {
 }
 
 .nav-links a:hover {
-  /*transform: translateY(-2px);*(
-  /*så den åker upp lite när man hovrar*/
   transition: 1s;
   color: white;
 }
@@ -110,23 +102,17 @@ body {
   justify-content: space-between;
   width: 37px;
   height: 26px;
-  /*width: 50px;
-  height: auto;*/
 }
 
 .cv {
   padding: 0.8rem;
   border-radius:50px;
-  /*border: 2.5px solid #80ed999f;*/
   background-color: #e6f5f936;
-}
-
-.cv:hover {
-  color: white;
 }
 
 
 main {
+  grid-area: main;
   background-image: url(pillars.png);
   background-size: cover;
   height: 230vh;
@@ -175,8 +161,6 @@ main {
 
 .genomskinlig:hover {
   border: 1.4px solid white;
-  background-color: #f6f4f06e;
-  background-color: #f6f4f0;
   background-color: #e5e5e37d;
   /*gör bakgrundsbilden ljusare vid hover*/
   transform: translatey(-0.3rem);
@@ -330,16 +314,13 @@ footer {
 
   .navigation {
     justify-content: space-between;
-    align-items: center;
-    /*flex-direction: row;*/
+    align-items: left;
+    flex-direction: column;
     font-weight: 500;
     padding-left: 1rem;
-    background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
+    padding-left:1rem;
     color: white;
   }
-
-  
-
 
   .nav-links {
     display: block;
@@ -358,7 +339,6 @@ footer {
     display: block;
     font-family: "Raleway";
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
     font-size:1.7rem;
   }
 
@@ -367,7 +347,7 @@ footer {
   }
 
   .heading{
-    font-size: 3.70rem; /*VAR 5 INNAN*/
+    font-size: 4rem; /*VAR 5 INNAN*/
     padding-top: 2rem;
    
   }

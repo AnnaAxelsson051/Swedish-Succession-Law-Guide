@@ -51,11 +51,8 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  /*background: linear-gradient(to bottom, #0b0d7e, #023e8a, #0077b6, #9fecfc);*/
-  /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
-  flex-direction: row;
   /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
   padding-right:1rem;
   /*VADDERAR PÅ HÖGER SIDA AV NAV*/
@@ -307,11 +304,11 @@ footer {
 
   .navigation {
     justify-content: space-between;
-    align-items: center;
-    /*flex-direction: row;*/
+    align-items: left;
+    flex-direction: column;
     font-weight: 500;
     padding-left: 1rem;
-    background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
+    padding-left:1rem;
     color: white;
   }
 
@@ -338,7 +335,6 @@ footer {
     display: block;
     font-family: "Raleway";
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
     font-size:1.7rem;
   }
 

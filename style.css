@@ -49,19 +49,10 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  /*background: linear-gradient(to bottom, #0096c7, #0077b6, #48cae4);*/
-  background: linear-gradient(to bottom, #a69064,#f1e1bf, #b9a273, #a69064, #8d784e);
-  background: linear-gradient(to bottom, #a69064, #b9a273, #a69064,#ceba8c,#a69064, #836e43);
-  background: linear-gradient(to bottom, #a69064, #b9a273, #a69064,#ceba8c,#a69064, #836e43);
-  background: linear-gradient(to bottom, #a69064,#f1e1bf, #b9a273, #a69064, #8d784e);
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
-  /*Funkar ej??*/
   color: white;
 }
 
-/*.navbar-links {
-  display: none;
-}*/
 
 .nav-links ul {
   margin: 0.5rem;
@@ -81,17 +72,12 @@ body {
   color: white;
   padding: 1.35rem;
   display: block;
-  font-family: "Raleway";
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.4rem;
 }
 
 .nav-links a:hover {
-  /*transform: translateY(-2px);*/
-  /*så den åker upp lite när man hovrar*/
   transition: 1s;
-  /*color: #80ed99;
-  color: #a69064;*/
   color:white;
 }
 
@@ -116,18 +102,10 @@ body {
 
 .home {
   padding: 0.8rem;
-  /*border-radius: 10px 100px / 120px;*/
-  /*border: 2.5px solid #e6f5f979;*/
   border-radius:50px;
-  /*border: 2.5px solid #80ed999f;
-  border: 2.5px solid #a69064;
-  border: 2.5px solid #d2bd93;*/
   background-color: #e6f5f936;
 }
 
-.home:hover {
-  color: white;
-}
 
 main {
   grid-area: main;
@@ -216,20 +194,12 @@ main {
   /*border: 1px solid grey;*/
 }
 
-h2{
-  padding-bottom: 2rem;
-}
-
 .intro-text{
   line-height: 2.5rem;
   font-size: 1.5rem;
   font-family: 'Raleway';
   text-align: justify;
 }
-
-
-
-
 
 .our-vision-container{
   margin:5rem;
@@ -242,12 +212,13 @@ h2 {
   color: #a69064;
   line-height: 1.7px;
   text-align: left;
-  /*padding: 5rem;*/
   margin-top: 8rem;
+  margin-bottom:4.5rem;
   font-family: "Raleway";
 }
 
 .our-vision-text{
+  padding-top:2rem;
   font-size: 1.5rem;
   color: rgb(65, 65, 65);
   font-family: Raleway;
@@ -257,12 +228,7 @@ h2 {
 
 
 
-/*
-.pic-beside-text{
-  background-image: url(pen2.png);
-  width:22rem;
-  height:25rem;
-}*/
+
 
 footer {
   grid-area: footer;
@@ -287,25 +253,20 @@ footer {
       "footer footer";
   }
 
-  /*h1 {
-    font-size: 6rem;
-  }*/
+ 
   .menu-icon {
     display: none;
   }
 
   .navigation {
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+    align-items: left;
+    flex-direction: column;
+    font-weight: 500;
+    padding-left: 1rem;
     /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
     padding-right:1rem;
     /*VADDERAR PÅ HÖGER SIDA AV NAV*/
-
-    font-weight: 500;
-    padding-left: 1rem;
-    /*background: linear-gradient(to bottom, #0096c7, #0077b6, #48cae4);*/
-    /*background: linear-gradient(to bottom, #a69064, #b9a273, #a69064,#ceba8c,#a69064, #836e43);*/
     color: white;
   }
 
@@ -357,12 +318,6 @@ footer {
   .bottom-text-on-pic {
     font-size: 20px;
   }
-  .symbol-css {
-    height: 5rem;
-    width: auto;
-    right: 15%;
-    top: 48%;
-  }
 
 
 }
@@ -378,13 +333,14 @@ footer {
       "section section"
       "footer footer";
   }
-  h1 {
-    font-size: 7rem;
-  }
 
   .nav-links li a {
     font-size: 1.6rem;
     margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 7rem;
   }
 
 

@@ -10,7 +10,6 @@
 html {
   font-size: 62.5%;
   /*equals 10px*/
-  font-size: 68%;
 }
 
 body,
@@ -33,7 +32,7 @@ body {
   grid-template-rows: auto auto 1.5rem;
   grid-template-areas:
     "nav"
-    "section"
+    "main"
     "footer";
 }
 
@@ -54,14 +53,8 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  /*background: linear-gradient(to bottom, #0b0d7e, #023e8a, #0077b6, #9fecfc);*/
-  /*background: linear-gradient(to bottom, #023e8a, #03045e, #0077b6);*/
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
-  flex-direction: row;
-  /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
-  padding-right:1rem;
-  /*VADDERAR PÅ HÖGER SIDA AV NAV*/
 }
 
 .nav-links ul {
@@ -86,8 +79,6 @@ body {
 }
 
 .nav-links a:hover {
-  /*transform: translateY(-2px);*/
-  /*så den åker upp lite när man hovrar*/
   transition: 1s;
   color: white;
 }
@@ -110,203 +101,24 @@ body {
   justify-content: space-between;
   width: 37px;
   height: 26px;
-  /*width: 50px;
-  height: auto;*/
+
 }
 
 .articles {
   padding: 0.8rem;
-  border-radius: 10px 100px / 120px;
   border-radius: 50px;
-  /*border: 2.5px solid #e6f5f979;*/
   background-color: #e6f5f936;
 }
 
-/*.articles:hover {
-  color: white;
-}*/
 
-section {
+main {
+  grid-area:main;
   padding: 2rem;
   font-size: 1.8rem;
   box-shadow: 1px 1px 50px #cccccc;
 }
 
-/*.section-shadow{
-  box-shadow: 1px 1px 50px #cccccc;
- 
-}*/
 
-.section-padding{
-  padding-right:6rem;
-}
-
-.publish-container{
-    display:flex;
-    justify-content: space-between;
-    padding-bottom:8rem;
-    
-}
-.publish-author-date{
-    color:rgb(167, 166, 166);
-}
-
-.headline-main{
-    font-size:4.5rem;
-    font-weight: 500;
-    color: #a69064;
-    font-family: Raleway;
-  /*  font-size: 50px;
-  font-weight: 300;
-  line-height: 1.7px;
-  font-family: "Raleway";*/
-}
-
-.headline-smaller{
-    font-size:2.5rem;
-    font-weight: 500;
-    /*color: #a69064; */
-    padding-left: 12rem;
-    color:black;
-    color: #a69064;
-    font-family: Raleway;
-}
-
-p{
-    text-align: justify;
-    padding-left: 12rem;
-    padding-right:12rem;
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(79, 78, 78);
-    color: #614d24;
-    color:black;
-    font-family: Raleway;
-    font-family: 'Times New Roman';
-    line-height: 1.5;
-    font-size: 1.6rem;
-}
-.bold-words{
-    font-weight: 300;
-}
-
-
-
-.cv-container{
-  margin-left:5rem;
-  margin-right:2rem;
-  
-}
-
-.contact-container{
-  display: flex;
- justify-content: space-between;
- flex-direction: column;
-}
-
-.spacer-1{
-  width: auto;
-  height:.6rem;
-  /*background: grey;*/
-  /*background: linear-gradient(to bottom, #050505, #d0cfcf, #d0cfcf);*/
-  background: linear-gradient(to bottom,#614e27, #a69064, #b9a273, #f1e1bf);
-  margin-top: .7rem;
-}
-
-.profile-heading{
-  background-color: rgb(243, 243, 243);
-  padding-top: 0.7rem;
-  padding-bottom: 1rem;
-}
-
-.profile{
-  text-align: justify;
-  text-align: center;
-  padding-top:0.7rem;
-}
-
-.my-name{
-  /*font-family: Raleway;
-font-size: 35px;*/
-color: #a69064;
-color: black;
-/*text-align: left;*/
-text-align:center;
-font-weight:400;
-}
-
-.cv-heading{
-  padding-bottom: 1rem;
-  text-align: center;
-  background: linear-gradient(to bottom, #a69064, #b9a273, #f1e1bf,#f1e1bf);
-  padding-top: 0.7rem;
-  padding-bottom: 1rem;
-}
-
-.education-container{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-
-.padding-top{
-  padding-top:0.5rem;
-}
-
-.city-work{
-  text-align: right;
-}
-section {
-  grid-area: section;
-  text-align: left;
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.list-padding{
-  padding-left:3rem;
-}
-
-.list-flex{
-  display:flex;
-  /*justify-content: space-between;*/
-  /*align-items: flex-end;*/
-  
-  justify-content: space-between;
-}
-
-.skills-container{
-  display:flex;
-  justify-content: space-between;
-  flex-direction:  column;
-}
-
-.skills-list{
-  padding-bottom:2rem;
-}
-
-.skills-spacer{
-  width: 10vw;
-}
-
-/*.skills-list{
-  list-style: none;
-}*/
-
-.skills-list-center{
-  text-align: center;
-}
-
-/*
-ul{
-  list-style: none;
-}*/
-
-.coding-course-list, .books-list{
-  list-style: none;
-}
 
 footer {
   grid-area: footer;
@@ -323,7 +135,7 @@ footer {
     grid-template-rows: auto auto 2rem;
     grid-template-areas:
       "nav nav"
-      "section section"
+      "main main"
       /*"aside main"*/
       "footer footer";
   }
@@ -334,11 +146,11 @@ footer {
 
   .navigation {
     justify-content: space-between;
-    align-items: center;
-    /*flex-direction: row;*/
+    align-items: left;
+    flex-direction: column;
     font-weight: 500;
     padding-left: 1rem;
-    background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
+    padding-left:1rem;
     color: white;
   }
 
@@ -377,23 +189,9 @@ footer {
     font-size: 4rem; /*VAR 5 INNAN*/
     padding-top: 2rem;
   }
-  .skills-container{
-    flex-direction: row;
-  }
-  .education-container{
-    flex-direction: row;
-  }
-  .contact-container{
-   flex-direction: row;
-  }
 
-  .headline-main{
-   text-align: left;
-  /*  font-size: 50px;
-  font-weight: 300;
-  line-height: 1.7px;
-  font-family: "Raleway";*/
-}
+
+
 
   
 }
@@ -405,7 +203,7 @@ footer {
     grid-template-rows: auto auto 2rem;
     grid-template-areas:
       "nav nav"
-      "section section"
+      "main main"
       /*"aside main"*/
       "footer footer";
   }

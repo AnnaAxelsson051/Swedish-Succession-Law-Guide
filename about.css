@@ -47,7 +47,6 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
  
@@ -75,8 +74,6 @@ body {
 }
 
 .nav-links a:hover {
-  /*transform: translateY(-2px);*/
-  /*så den åker upp lite när man hovrar*/
   transition: 1s;
   color: white;
 }
@@ -98,8 +95,26 @@ body {
   justify-content: space-between;
   width: 37px;
   height: 26px;
-  /*width: 50px;
-  height: auto;*/
+}
+
+.presentation {
+  padding: 0.8rem;
+  border-radius:50px;
+  background-color: #e6f5f936;
+  
+}
+
+
+main {
+  grid-area: main;
+  font-size: 1.5rem;
+  color: rgb(65, 65, 65);
+  box-shadow: 1px 1px 50px #cccccc;
+  font-family: Raleway;
+  line-height: 1.5;
+  margin: 1.5rem;
+  padding: 4rem;
+  box-shadow: 0 2.4rem 4;
 }
 
 .who-we-are-headline{
@@ -113,7 +128,8 @@ text-align: justify;
 
 .grid-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  /*flex-direction: row;*/
 }
 
 .lawyer-description{
@@ -125,16 +141,7 @@ h3{
   padding-left: 3rem;
 }
 
-/*.pic1{
-  background-image: url(lawyer12.png);
-}*/
 
-/*.pic2{
-  background-image: url(lawyer6.png);
-}*/
-/*.pic3{
-  background-image: url(lawyer1.png);
-}*/
 
 .grids{
   margin:2rem;
@@ -149,58 +156,7 @@ h3{
 
 }
 
-/*
-.pic3{
-  background-image: url(lawyer1.png);
-  background-size: cover;
-  
-  width:auto;
 
-}*/
-
-
-.my-pic3 {
-  display: none;
-}
-.hidden-headline2 {
-  display: none;
-}
-
-.my-pic2 {
-  height: 25rem;
-  width: 25rem;
-}
-
-.presentation {
-  padding: 0.8rem;
-  border-radius: 10px 100px / 120px;
-  border-radius:50px;
-
-  background-color: #e6f5f936;
-  /*border: 2.5px solid #d2bd93;*/
-  
-}
-
-/*.presentation:hover {
-  color: white;
-}*/
-
-.my-pic1 {
-  padding-left: 20rem;
-  display: none;
-}
-.text-and-pic2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main {
-  font-size: 1.5rem;
-  color: rgb(65, 65, 65);
-  box-shadow: 1px 1px 50px #cccccc;
-  font-family: Raleway;
-  line-height: 1.5;
-}
 
 h2 {
   font-size:5rem;
@@ -216,13 +172,7 @@ p {
   text-align: justify;
 }
 
-main {
-  grid-area: main;
-  margin: 1.5rem;
-  padding: 4rem;
-  box-shadow: 0 2.4rem 4;
-  line-height: 1.5;
-}
+
 
 footer {
   grid-area: footer;
@@ -239,36 +189,31 @@ footer {
     margin: 0;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto 2rem;
+    grid-template-rows: auto auto auto 2rem;
     grid-template-areas:
       "nav nav"
       "main main"
+      "section section"
       "footer footer";
   }
 
-  /*h1 {
-    font-size: 6rem;
-  }*/
+
   .menu-icon {
     display: none;
   }
 
   .navigation {
     justify-content: space-between;
-    align-items: center;
-    /*flex-direction: row;*/
+    align-items: left;
+    flex-direction: column;
     font-weight: 500;
+    padding-right: 1rem;
     padding-left: 1rem;
-
-    background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
     color: white;
-    flex-direction: row;
     /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
-    padding-right:1rem;
   }
 
   .heading {
-    font-size: 5rem;
     font-size: 4rem; /*VAR 5 INNAN*/
     padding-top: 2rem;
   }
@@ -300,38 +245,15 @@ footer {
     display: none;
   }
 
+  .grid-container{
+    flex-direction: row;
+  }
+
   h2 {
     margin-bottom: 2rem;
       font-size:4rem;
   }
 
-  .my-pic2 {
-    display: none;
-  }
-  .my-pic3 {
-    display: block;
-    padding-bottom: 5rem;
-  }
-
-  .hidden-headline {
-    display: none;
-  }
-  .hidden-headline2 {
-    display: block;
-  }
-
-  .my-pic3 {
-    height: 25rem;
-    width: 25rem;
-    padding-left: 6rem;
-    padding-right: 3rem;
-  }
-
-  .text-and-pic3 {
-    display: flex;
-    flex-direction: row;
-    /*align-items: center;*/
-  }
   p{
     font-family: Raleway;
     line-height: 1.8;
@@ -344,10 +266,11 @@ footer {
     margin: 0;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto 2rem;
+    grid-template-rows: auto auto auto 2rem;
     grid-template-areas:
       "nav nav"
       "main main"
+      "section section"
       "footer footer";
   }
 ´
@@ -359,6 +282,12 @@ footer {
   h1 {
     font-size: 7rem;
     text-align: center;
+  }
+
+  .heading {
+    font-size: 4rem;
+    /*VAR 7 INNAN*/
+    padding-top: 2rem;
   }
 
   h2 {
