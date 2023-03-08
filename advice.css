@@ -365,7 +365,6 @@ footer {
 
 main {
   height: 400vh;
-  grid-area: main;
   background-image: url(pillars.png);
   background-size: cover;
   width:100vw;
@@ -391,6 +390,6 @@ main {
   }
 
   main {
-    height: 270vh;
+    height: 310vh;
 }
 }
