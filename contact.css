@@ -100,7 +100,7 @@ body {
 
 .toggle-button {
   position: absolute;
-  top: 9%;
+  top: 5%;
   right: 4%;
   display: flex;
   flex-direction: column;
@@ -118,9 +118,12 @@ h2 {
 }
 
 .address{
-  font-size: 2rem;
+  text-align: left;
+
+  font-size: 1.6rem;
   padding-top: 6rem;
   padding-left:6rem;
+  padding-left:1.8rem;
   color: white;
   letter-spacing: .3rem;
   line-height: 1.4;
@@ -342,6 +345,16 @@ footer {
     display: none;
   }
 
+  .address{
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 6rem;
+    padding-left:6rem;
+    color: white;
+    letter-spacing: .3rem;
+    line-height: 1.4;
+  }
+
   .contact-me-btn {
     right: 9%;
     top: 26.2%;
@@ -379,33 +392,7 @@ footer {
   main {
     text-align: left;
   }
-  /*.contact-section1 {
-    column-gap: 4rem;
-    width: auto;
-  }
 
-  .contact-form {
-    width: 75%;
-    padding: 6rem;
-  }
-  .fields-1-and-2 {
-    column-gap: 1.6rem;
-    width: auto;
-  }
-
-  .contact-section2 {
-    width: 100%;
-    
-  }
-
-  .field-4 {
-    width: 600px;
-    
-  }
-
-  .form-input-field-4 {
-    padding: 9rem 2rem;
-  }*/
 }
 @media screen and (min-width: 992px) {
   body {

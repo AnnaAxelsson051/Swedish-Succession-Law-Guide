@@ -91,7 +91,7 @@ body {
 
 .toggle-button {
   position: absolute;
-  top: 9%;
+  top: 5%;
   right: 4%;
   display: flex;
   flex-direction: column;
@@ -119,7 +119,7 @@ main {
 .text-on-pic {
   position: absolute;
   right: 50%;
-  top: 69%;
+  top: 49%;
   left: 5%;
   color: #fff;
   z-index: 3;
@@ -310,6 +310,8 @@ footer {
     color: #fff;
     z-index: 3;
   }
+
+
 
   .top-text-on-pic {
     font-size: 45px;
