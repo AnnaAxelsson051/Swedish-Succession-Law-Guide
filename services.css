@@ -113,10 +113,12 @@ h1 {
 
 main {
   grid-area: main;
-  background-image: url(pillars.png);
+  background-color: #8d784e7b;
+  background-color: #8d784ea7;
+  /*background-image: url(pillars.png);
   background-size: cover;
-  height: 230vh;
-  width:100vw;
+  height: 270vh;
+  width:100vw;*/
 }
 
 .rut-sektion {
@@ -127,7 +129,6 @@ main {
 }
 
 .rut-sektion div div {
-  padding: 3.5rem;
   padding:2rem;
   /*ger storleken på de individuella rutornas yttre kant*/
   line-height: 1.5;
@@ -165,16 +166,12 @@ main {
   /*gör bakgrundsbilden ljusare vid hover*/
   transform: translatey(-0.3rem);
   /*makes den inre genomskinliga gå upp lite när man hovrar(translatex är åt sidan)*/
-  /*transform: scale(1.05);
-  förstorar rutan*/
+  transform: scale(1.05);
+  /*förstorar rutan*/
 }
 
 /*texterna*/
-.Fördelning-av-arv-p,
-.Upprätta-testamente-p,
-.Ogiltighet-förverkande-återkallelse-p,
-.Nödfallstestamente-p,
-.Testamentsrätten-och-tekniken-p {
+.describing-text {
   text-decoration: none;
   color: #211d14;
   color: #110e0a;
@@ -260,9 +257,18 @@ hover,active*/
 .Läs-mer-knapp:hover,
 .Läs-mer-knapp:active {
   background-image: linear-gradient(to bottom, #f6f4f0ba, #f6f4f00b, #f6f4f00b);
+  /*background-image: linear-gradient(to bottom, #c1b193, #a69064, #6f582a);*/
   background-color: #f6f4f00b;
   background-color: #38d9a9;
   background-color: #20c997;
+  background-color: rgba(36, 36, 167, 0.781);
+  background-color: rgba(62, 62, 228, 0.513);
+  background-color: rgb(66, 66, 202);
+
+  background-color: rgba(36, 36, 167, 0.781);
+  background-color: rgba(0, 0, 219, 0.781);
+  background-color: rgba(1, 98, 255, 0.921);
+  background-color: rgba(36, 36, 167, 0.781);
   color: white;
   transition: 0.3s;
 }
@@ -356,6 +362,16 @@ footer {
     grid-template-columns: 1fr 1fr;
   
 }
+
+main {
+  height: 400vh;
+  grid-area: main;
+  background-image: url(pillars.png);
+  background-size: cover;
+  width:100vw;
+}
+}
+
 @media screen and (min-width: 992px) {
   body {
     margin: 0;
@@ -373,4 +389,8 @@ footer {
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
+
+  main {
+    height: 270vh;
+}
 }
