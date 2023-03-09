@@ -131,6 +131,10 @@ main {
     width:100vw;
     height: 70vh;
     background-color: blue;
+    background-color: #20c997;
+
+    box-shadow: 0 0.4rem 1.8rem rgba(0, 0, 0, 0.80);
+    background-color: #d8c49a;
     margin:1rem;
 }*/
 
@@ -147,6 +151,12 @@ main {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.80);
     box-shadow: 10px 5px 5px rgb(10, 10, 10);
     box-shadow: 0 0.4rem 1.8rem rgba(0, 0, 0, 0.80);
+    border: 1px solid #d8c49a;
+    border: 1px solid #20c997;
+    border: 2px solid #3a9b7e;
+    border: 1px solid #20c997;
+    border: 1.5px solid #d8c49a;
+    
 
 }
 
@@ -161,6 +171,9 @@ h2{
     color: #8d784e;
     color: #745f35;
     color: #604c23;
+    color: #20c997;
+    color: #3a9b7e;
+    color: #604c23;
 }
 
 h3{
@@ -170,6 +183,9 @@ h3{
     color:rgb(26, 232, 232);
     font-weight:500;
     color: rgba(36, 36, 167, 0.781);
+    color: #604c23;
+    color: #20c997;
+    color: #3a9b7e;
     color: #604c23;
 }
 
@@ -184,6 +200,8 @@ h3{
     
 
 }
+
+
 
 
 
