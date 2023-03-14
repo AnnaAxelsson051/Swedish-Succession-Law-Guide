@@ -165,7 +165,7 @@ h2 {
       rgba(255, 255, 255, 0) 60%
     ),
     url(tech03.jpg);*/
-    background-image: url(pillars2.png);
+    background-image: url(Images/pillars2.png);
   background-size: 100%;
   /*height: 55rem;*/
   border-radius: 3px;

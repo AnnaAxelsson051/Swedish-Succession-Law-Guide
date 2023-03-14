@@ -112,7 +112,7 @@ main {
 }
 
 .main-pic {
-  background-image: url(mainpic.png);
+  background-image: url(Images/mainpic.png);
   background-size: cover;
   height: 100vh;
 }

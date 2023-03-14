@@ -166,7 +166,7 @@ main {
   border: 1.8px solid white;
   background-color: #e5e5e37d;
   /*gör bakgrundsbilden ljusare vid hover*/
-  transform: translatey(-0.3rem);
+  /*transform: translatey(-0.3rem);*/
   /*makes den inre genomskinliga gå upp lite när man hovrar(translatex är åt sidan)*/
   transform: scale(1.05);
   /*förstorar rutan*/
@@ -271,12 +271,13 @@ hover,active*/
   background-color: rgba(0, 0, 219, 0.781);
   background-color: rgba(1, 98, 255, 0.921);
   background-color: rgba(36, 36, 167, 0.781);
-  background-color: #20c997;
-  background: linear-gradient(to bottom, #186edf, #0e1094, #25adf7);
+  /*background: linear-gradient(to bottom, #186edf, #0e1094, #25adf7);
   background: linear-gradient(to bottom, #186edf, #2225bf, #25adf7);
   background: linear-gradient(to bottom, #186edf, #3639e1, #25adf7);
   background: linear-gradient(to bottom, #186edf, #5053f3, #25adf7);
-  background: linear-gradient(to bottom, #186edf, #5053f3, #25adf7);
+  background: linear-gradient(to bottom, #186edf, #5053f3, #25adf7);*/
+  background-color: #186edf;
+  background-color: #20c997;
 
   color: white;
   transition: 0.3s;
@@ -374,7 +375,7 @@ footer {
 
 main {
   height: 400vh;
-  background-image: url(pillars.png);
+  background-image: url(Images/pillars.png);
   background-size: cover;
   width:100vw;
 }
