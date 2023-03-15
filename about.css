@@ -131,7 +131,7 @@ main {
   .who-we-are-text{
   text-align: justify;
   margin-left:3rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
   margin-bottom:2rem;
   line-height: 2.5rem;
   font-size: 1.5rem;
@@ -314,6 +314,10 @@ footer {
 
   h2 {
     font-size:4rem;
+  }
+
+  .who-we-are-text{
+    margin-right: 20rem;
   }
   
 }
