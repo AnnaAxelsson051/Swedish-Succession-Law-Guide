@@ -139,13 +139,13 @@ main {
 }*/
 
 .image-container{
-    background-image: url(Images/retract.png);
-    height:60vh;
-    width: 75vw;
+    background-image: url(Images/emergency-will.jpeg);
+    height:40vh;
+    width: 78vw;
     background-size: cover;
     margin-top:3rem;
-    margin-left:12rem;
-    margin-right:12rem;
+ margin-left: 5rem;
+ margin-right: 5rem;
     border-radius: 10px;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.80);
@@ -161,8 +161,9 @@ main {
 }
 
 h2{
-    padding-left: 12rem;
-    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
     font-size: 3.5rem;
     font-family: 'Raleway';
@@ -177,7 +178,8 @@ h2{
 }
 
 h3{
-    padding-left: 12rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
     font-size: 2.2rem;
     font-family: 'Raleway';
     color:rgb(26, 232, 232);
@@ -191,9 +193,9 @@ h3{
 
 .describing-text{
     padding-top:3rem;
-    padding-bottom:3rem;
-    padding-left: 12rem;
-    padding-right: 12rem;
+    padding-bottom:1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     font-size: 1.7rem;
     text-align: justify;
     font-family: 'Raleway';
@@ -327,17 +329,25 @@ footer {
     padding-top: 2rem;
    
   }
-/*
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  
-}*/
+
 
 main {
   height: 400vh;
   /*background-image: url(pillars.png);*/
   background-size: cover;
   width:100vw;
+}
+
+.image-container{
+  height:80vh;
+  width: 75vw;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+h2, h3, .describing-text{
+padding-left:12rem;
+padding-right:12rem;
 }
 }
 
