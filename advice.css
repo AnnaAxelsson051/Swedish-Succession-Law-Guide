@@ -115,10 +115,13 @@ main {
   grid-area: main;
   background-color: #8d784e7b;
   background-color: #8d784ea7;
+  background-color: white;;
   /*background-image: url(pillars.png);
   background-size: cover;
   height: 270vh;
   width:100vw;*/
+ 
+
 }
 
 .rut-sektion {
@@ -153,17 +156,25 @@ main {
   color: #211d14;
   color: black;
   padding-bottom: .5rem;
+ 
 }
 
 .genomskinlig {
   border: 1.4px solid white;
   border: 1.8px solid white;
+  border: 2.2px solid #a69064;
+  
   transition: all 2.2s;
+  box-shadow: 0 5px 10px #110e0a6b;
+  /*border-radius: .7rem;*/
+
+
 }
 
 .genomskinlig:hover {
   border: 1.4px solid white;
   border: 1.8px solid white;
+  border: 2.2px solid white;
   background-color: #e5e5e37d;
   /*gör bakgrundsbilden ljusare vid hover*/
   /*transform: translatey(-0.3rem);*/
@@ -193,6 +204,8 @@ main {
     ),
     url(pen.png);
   background-size: cover;
+  box-shadow: 0 5px 10px #110e0a6b;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
 .Upprätta-testamente-bakgrund {
@@ -206,6 +219,8 @@ main {
     url(pen.png);
   background-size: cover;
   /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
+  box-shadow: 0 5px 10px #110e0a6b;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
 .Ogiltighet-förverkande-återkallelse-bakgrund {
@@ -219,6 +234,8 @@ main {
     url(pen2.png);
   background-size: cover;
   /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
+  box-shadow: 0 5px 10px #110e0a6b;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
 .Nödfallstestamente-bakgrund {
@@ -231,7 +248,13 @@ main {
     ),
     url(pen2.png);
   background-size: cover;
+  box-shadow: 0 5px 10px #110e0a6b;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  /*border-radius: .7rem;*/
+
 }
+
+
 
 /*link,visited
 hover,active*/
@@ -375,7 +398,7 @@ footer {
 
 main {
   height: 400vh;
-  background-image: url(Images/pillars.png);
+  background-image: url(Images/background.jpg);
   background-size: cover;
   width:100vw;
 }

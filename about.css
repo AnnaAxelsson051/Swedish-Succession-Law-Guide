@@ -163,8 +163,11 @@ main {
     background-size: cover;
     width:auto;
     width:28rem;
+    /*width:35rem;*/
     height:35rem;
+    /*height:32rem;*/
     background-color: beige;
+    background-color: #a69064;
   
   }
   

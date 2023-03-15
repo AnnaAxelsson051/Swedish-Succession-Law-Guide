@@ -139,7 +139,7 @@ main {
 }*/
 
 .image-container{
-    background-image: url(Images/fordelning.jpeg);
+    background-image: url(Images/lady-justice.jpg);
     height:40vh;
     width: 78vw;
     background-size: cover;
@@ -371,5 +371,10 @@ padding-right:12rem;
 
   main {
     height: 310vh;
+}
+
+.image-container{
+  width: 80vw;
+  height:100vh;
 }
 }
