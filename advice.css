@@ -168,7 +168,7 @@ main {
   /*gör bakgrundsbilden ljusare vid hover*/
   /*transform: translatey(-0.3rem);*/
   /*makes den inre genomskinliga gå upp lite när man hovrar(translatex är åt sidan)*/
-  transform: scale(1.05);
+  /*transform: scale(1.05);*/
   /*förstorar rutan*/
 }
 

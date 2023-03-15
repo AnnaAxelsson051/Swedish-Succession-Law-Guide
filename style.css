@@ -152,6 +152,7 @@ main {
   font-family: Raleway;
 }
 
+
 /*textens rörelser*/
 
 @keyframes moveInLeft {
@@ -226,7 +227,14 @@ h2 {
   line-height: 1.8rem;
 }
 
-
+a{
+ 
+  font-size: 1.5rem;
+  color: rgb(65, 65, 65);
+  font-family: Raleway;
+  text-align: justify;
+  line-height: 1.8rem;
+}
 
 
 

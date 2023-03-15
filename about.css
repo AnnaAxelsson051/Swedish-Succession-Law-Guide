@@ -124,15 +124,24 @@ main {
   .who-we-are-headline{
   color: #a69064;
   font-size:4rem;
+  margin-left:3rem;
+  margin-right: 3rem;
   }
   
   .who-we-are-text{
   text-align: justify;
+  margin-left:3rem;
+  margin-right: 3rem;
+  margin-bottom:2rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+
   }
   
   .grid-container{
     display: flex;
     flex-direction: column;
+  
     
   }
   

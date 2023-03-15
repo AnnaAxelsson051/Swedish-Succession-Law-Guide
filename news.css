@@ -51,17 +51,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 5px;
 }
-/*
-.projects {
-  padding: 0.8rem;
-  border-radius: 10px 100px / 120px;
-  border-radius:50px;
-  background-color: #e6f5f936;
-}
 
-.projects:hover {
-  color: white;
-}*/
 
 .navigation {
   grid-area: nav;
@@ -146,199 +136,30 @@ main {
   box-shadow: 1px 1px 50px #cccccc;
 }
 
-.news-article-heading{
-  color: black;
-}
-
-
-/*
-.my-projects {
-  height: 1050px;
-  margin: 50px auto;
-  border-radius: 6px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 86px;
-}
-.my-projects-paint-chat{
-  background: linear-gradient(to bottom, #686969, #1e1f20, #020202);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-}
-
-.my-projects-law {
-  background: linear-gradient(to bottom, #a69064, #b9a273, #d1ba8d);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-}
-
-.my-projects-sort{
-  background: linear-gradient(to bottom, #73dbf0, #359fd8, #0096c7);
-  background: linear-gradient(to bottom, #686969, #1e1f20, #020202);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-  background: linear-gradient(to bottom, #f903cc, #f77ef5, #f7baba);
-  background: linear-gradient(to bottom, #9203f9, #dd7ef7, #e5baf7);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-}
-
-.my-projects-e-commerce{
-  background: linear-gradient(to bottom, #73dbf0, #359fd8, #0096c7);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-}
-
-.my-projects-haj {
-  background: linear-gradient(to bottom, #80ed99, #3febb7, #20c997);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
-}
-
-
-.my-projects-java {
-  background: linear-gradient(to bottom, #686969, #1e1f20, #020202);
-  background: linear-gradient(to bottom, #73dbf0, #359fd8, #0096c7);
-  background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
+main{
+  background-color:#8d784e44;
 }
 
 
 
-h2 {
-  color: #fff;
-  font-size: 4rem;
+h2{
+  margin-bottom: 2rem;;
 }
 
-.describing-text {
-  font-size: 19px;
-  line-height: 1.5;
-  color: #fff;
-  padding: 1rem;
+h3{
+  margin-bottom: 1.8rem;
+}
+p{
+  text-align: justify;
 }
 
-.text-button-flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.read-more-btn:link,
-.read-more-btn:visited {
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 1rem;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  padding: 10px 26px;
-  color: #322b1e;
-  cursor: pointer;
-  border: 2px solid #fff8eca2;
-  background-image: linear-gradient(to bottom, #c1b193, #a69064);
-  transition: all 0.2s;
-  z-index: 1;
-}
-
-.read-more-btn:hover,
-.read-more-btn:active {
-  background-image: linear-gradient(to bottom, #f6f4f0ba, #f6f4f00b, #f6f4f00b);
-  background-color: #20c997;
-  color: white;
-  transition: 0.3s;
-}*/
-/*
-.read-more-btn:hover {
-  transform: translateY(-3px);
-  z-index: 1;
-  box-shadow: 0 10px 20px #110e0a35;
-}
-
-.read-more-btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px #110e0a6b;
-}
-.carousel {
-
-  height: 307px;
- 
-  width: 478px;
- 
-  position: relative;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
-
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
- 
-  opacity: 0;
-  transition: 1000ms opacity ease-in-out;
-  transition-delay: 200ms;
-}
-
-.slide > img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.intro-pic {
-  object-position: left;
-}
-
-.slide[data-active] {
-  opacity: 1;
-  transition-delay: 0ms;
-  z-index: 1;
-}
-
-.carousel-button {
-
-  border: none;
-  font-size: 4rem;
-  z-index: 2;
-  color: rgb(255, 255, 255);
-
-  cursor: pointer;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
-  background-color: #a6906465;
-  background: linear-gradient(to bottom, #faf4e896, #b9a27394, #a6906496);
-}
-
-.previous {
-  position: absolute;
-  top: 42%;
-  right: 88.5%;
-}
-
-.next {
-  position: absolute;
-  top: 42%;
-}
-.carousel-button:hover,
-.carousel-button:focus {
-  color: #20c997;
-  color: #a69064;
-
-}
-
-.carousel-button.prev {
-  left: 1rem;
-}
-.carousel-button.next {
-  right: 1rem;
-}
-
-.carousel > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}*/
 
 footer {
   grid-area: footer;
   padding: 3rem;
   font-size: 1.8rem;
   margin-top: 1.5rem;
+  text-align: left;
   color: #888;
 }
 
