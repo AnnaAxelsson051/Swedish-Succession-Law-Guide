@@ -139,8 +139,8 @@ main {
 }*/
 
 .image-container{
-    background-image: url(Images/retract.png);
-    height:60vh;
+    background-image: url(Images/fordelning.jpeg);
+    height:100vh;
     width: 75vw;
     background-size: cover;
     margin-top:3rem;
