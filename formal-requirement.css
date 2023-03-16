@@ -117,26 +117,7 @@ main {
   background-color: #8d784ea7;
 
 }
-/*
-.Fördelning-av-arv-bakgrund{
-    background-image: url(Images/pageIcon.png);
-    background-size: cover;
-}
-.rut-sektion{
-    background-image: url(Images/pageIcon.png);
-    background-size: cover;
-}*/
-/*
-.surrounding-image-container{
-    width:100vw;
-    height: 70vh;
-    background-color: blue;
-    background-color: #20c997;
 
-    box-shadow: 0 0.4rem 1.8rem rgba(0, 0, 0, 0.80);
-    background-color: #d8c49a;
-    margin:1rem;
-}*/
 
 .image-container{
     background-image: url(Images/hand-writing.jpg);
@@ -272,6 +253,8 @@ footer {
   padding: 3rem;
   font-size: 1.8rem;
   margin-top: 1.5rem;
+  color: #888;
+  font-family: 'Times New Roman', Times, serif;
 }
 /*tablets*/
 @media screen and (min-width: 768px) {
