@@ -116,13 +116,13 @@ main {
   background-image: url(Images/mainpic7.jpg);
   background-image: url(Images/principle-limits-2.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   width:100vw;
 }
 .text-on-pic {
   position: absolute;
   right: 50%;
-  top: 55%;
+  top: 50%;
   left: 5%;
   color: #fff;
   z-index: 3;
@@ -147,6 +147,7 @@ main {
   display: block;
   font-size: 15px;
   font-weight: 400;
+  line-height: 1.5;
   /*font-family: Pinyon script;*/
   color: #fff;
   color: white;
@@ -218,7 +219,7 @@ padding-left:4rem;
 padding-right:4rem;
   padding-top:2rem;
   color: rgb(60, 60, 60);
-  line-height: 2.2rem;
+  line-height: 2.4rem;
   /*width:85vw;*/
 }
 
@@ -317,6 +318,14 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     font-size:1.7rem;
+  }
+  .main-pic {
+    background-image: url(Images/principle-limits-2.jpg);
+    background-image: url(Images/mainpic7.jpg);
+    background-image: url(Images/principle-limits-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
   }
 
   .text-on-pic {
