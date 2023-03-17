@@ -206,6 +206,7 @@ flex-direction: column;
 margin-left:15rem;
 margin-right: 2rem;
 margin-top: 4rem;
+margin-bottom: 2rem;
 width: 36vw;
 height:22vw;
 background-size: 100%;
@@ -349,9 +350,6 @@ footer {
     
   }
 
-  .intro-text{
-    line-height: 2.5rem;
-  }
   .intro-container{
     flex-direction: row;
     
@@ -371,6 +369,7 @@ footer {
     text-align: justify;
   padding-left:7rem;
     padding-top:2rem;
+    padding-bottom: 2rem;
     color: rgb(65, 65, 65);
     line-height: 2.5rem;
     width:50vw;
