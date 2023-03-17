@@ -333,7 +333,7 @@ hover,active*/
 footer {
   grid-area: footer;
   padding: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
   color: #888;
   font-family: 'Times New Roman', Times, serif;

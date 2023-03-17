@@ -254,7 +254,7 @@ main {
 footer {
   grid-area: footer;
   padding: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: 'Times New Roman', Times, serif;
   color: #888;
