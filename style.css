@@ -146,6 +146,7 @@ main {
   margin-top: 1.5rem;
   display: block;
   font-size: 15px;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.5;
   /*font-family: Pinyon script;*/
@@ -212,7 +213,7 @@ align-items: center;
 }
 
 .intro-text{
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-family: 'Raleway';
   text-align: justify;
 padding-left:4rem;
@@ -238,7 +239,7 @@ h2 {
 
 a{
  
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: rgb(65, 65, 65);
   font-family: Raleway;
   text-align: justify;
@@ -365,7 +366,7 @@ footer {
   
   .intro-text{
     line-height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Raleway';
     text-align: justify;
   padding-left:7rem;
@@ -429,7 +430,7 @@ footer {
   
   .intro-text{
     line-height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Raleway';
     text-align: justify;
   padding-left:8rem;

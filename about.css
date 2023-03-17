@@ -109,7 +109,7 @@ body {
 
 main {
     grid-area: main;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgb(65, 65, 65);
     box-shadow: 1px 1px 50px #cccccc;
     font-family: Raleway;
@@ -134,7 +134,7 @@ main {
   margin-right: 5rem;
   margin-bottom:2rem;
   line-height: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 
   }
   
@@ -278,6 +278,7 @@ footer {
     font-family: Raleway;
     line-height: 1.8;
     font-size: 1.2rem;
+    font-size: 1.7rem;
     color:black;
   }
 

@@ -115,10 +115,6 @@ h1 {
   background-color: #e6f5f936;
 }
 
-main {
-  grid-area: main;
-}
-
 
 section {
   grid-area: section;
@@ -126,8 +122,9 @@ section {
 
 
 main {
+  grid-area: main;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin: 2rem;
   margin-right:2rem;
   margin-left:2rem;
@@ -234,7 +231,7 @@ footer {
   }
   main {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin: 2rem;
     margin-right:6rem;
     margin-left:6rem;
@@ -283,7 +280,7 @@ footer {
 }
 main {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin: 2rem;
   margin-right:10rem;
   margin-left:10rem;
