@@ -115,7 +115,10 @@ main {
   grid-area: main;
   background-color: #8d784e7b;
   background-color: #8d784ea7;
-  background-color: white;;
+  background-color: white;
+  background-image: url(Images/background.jpg);
+  width:100vw;
+  height: 600vh;
   /*background-image: url(pillars.png);
   background-size: cover;
   height: 270vh;
