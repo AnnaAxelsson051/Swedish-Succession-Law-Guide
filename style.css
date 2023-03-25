@@ -49,7 +49,7 @@ body {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
+  background: linear-gradient(to bottom, #a69064, #d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
 }
 
