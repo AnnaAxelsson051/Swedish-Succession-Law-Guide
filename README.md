@@ -25,4 +25,7 @@ This is an informative law firm webpage that allows users to find extensive info
 ![Screenshot 2023-05-25 at 21 05 34](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/7d605199-9f24-4ae1-b251-5eb7bca85066)
 <br>
 ![Screenshot 2023-05-25 at 21 00 57](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/9b5c8c0e-4979-4755-ba8f-be372a5f2198)
-
+<br>
+![Screenshot 2023-05-25 at 21 08 34](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/2f6b198d-cc76-4dcc-a6d2-e3d76576fee8)
+<br>
+![Screenshot 2023-05-25 at 21 08 04](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/88a399a3-4e09-4460-8199-2d1644b999ba)
