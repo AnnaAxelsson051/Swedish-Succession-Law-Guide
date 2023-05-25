@@ -18,8 +18,10 @@ This is an informative law firm webpage that allows users to find extensive info
 - Mobile first
 
 --- 
-![Screenshot 2023-05-25 at 20 46 00](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/8d3a80ee-6046-48fc-bee6-5cc12311fa40)
+![Screenshot 2023-05-25 at 20 53 06](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/30362d20-f603-484e-b26b-42e1e91aa042)
 <br>
-![Screenshot 2023-05-25 at 20 45 34](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/167452cf-a55f-4800-aa64-4bf2d1acac22)
+![Screenshot 2023-05-25 at 20 52 29](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/3ce24843-a450-4049-b4b0-ba77162c1110)
+<br>
+![Screenshot 2023-05-25 at 20 52 04](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/cbb32c45-5f38-4712-b5cd-296a4eb00576)
 
 
