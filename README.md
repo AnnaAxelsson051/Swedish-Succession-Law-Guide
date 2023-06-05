@@ -1,21 +1,23 @@
 
-# Law Firm Website
+# CHASIT LAW
  
 [Link to published site](https://annaaxelsson051.github.io/Law-Firm-website/)
 
+---
+
 ## Description
 
-This is an informative law firm webpage that allows users to find extensive information about succession law, providing a convenient, efficient and cost free solution for legal information needs. The user can also choose to contact the firm staff for further consultation. The webpage is built with mobile first and is responsive on larger screens as well as tablets and mobile phones - where the menu folds into a burger menu. The goal was to learn HTML, CSS and JavaScript and contruct something of public service use.
+This is an informative law firm webpage that allows users to find extensive information about swedish succession law, providing a convenient, efficient and cost free solution for legal information needs. The user can also choose to contact the firm staff for further consultation. The webpage is built with mobile first and is responsive on larger screens as well as tablets and mobile phones - On smaller screens the menu folds into a burger menu. The goal was to learn HTML, CSS and JavaScript and contruct something of public service use.
 
 ## Technologies used
 
 - HTML
 - CSS
 - Vanilla JavaScript
-- Animations
-- Grids
 - Responsivity
 - Mobile first
+- Animations
+- Grids
 
 --- 
 ![Screenshot 2023-05-25 at 20 53 06](https://github.com/AnnaAxelsson051/E-Commerce-Store-Labb3/assets/103879144/30362d20-f603-484e-b26b-42e1e91aa042)
