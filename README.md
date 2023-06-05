@@ -1,5 +1,5 @@
 
-# CHASIT LAW
+# LAW FITM WEBSITE
  
 [Link to published site](https://annaaxelsson051.github.io/Law-Firm-website/)
 
