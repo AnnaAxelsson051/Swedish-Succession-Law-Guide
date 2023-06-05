@@ -9,7 +9,9 @@
 
 This is an informative law firm webpage that allows users to find extensive information about swedish succession law, providing a convenient, efficient and cost free solution for legal information needs. The user can also choose to contact the firm staff for further consultation. The webpage is built with mobile first and is responsive on larger screens as well as tablets and mobile phones - On smaller screens the menu folds into a burger menu. The goal was to learn HTML, CSS and JavaScript and contruct something of public service use.
 
-## Technologies used
+---
+
+## Technologies used:
 
 - HTML
 - CSS
