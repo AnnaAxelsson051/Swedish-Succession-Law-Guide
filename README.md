@@ -1,5 +1,5 @@
 
-# LAW FITM WEBSITE
+# LAW FIRM WEBSITE
  
 [Link to published site](https://annaaxelsson051.github.io/Law-Firm-website/)
 
