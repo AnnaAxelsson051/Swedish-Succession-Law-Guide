@@ -1,5 +1,5 @@
 
-# LAW FIRM WEBSITE
+# Swedish Succession Law Guide
  
 [Link to published site](https://annaaxelsson051.github.io/Swedish-Succession-Law-Guide/)
 
