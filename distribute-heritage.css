@@ -9,7 +9,6 @@
 
 html {
   font-size: 62.5%;
-  /*equals 10px*/
 }
 
 body,
@@ -18,7 +17,6 @@ html {
 }
 
 body {
-  /*font-family: "Times New Roman";*/
   font-family: Raleway;
   font-family: "Times New Roman";
   margin: 0;
@@ -54,8 +52,6 @@ h1 {
   flex-direction: column;
   background: linear-gradient(to bottom, #a69064,#d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
-   /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
-   /*VADDERAR PÅ HÖGER SIDA AV NAV*/
 }
 
 .nav-links ul {
@@ -184,18 +180,7 @@ h3{
 
 }
 
-
-
-
-
-
-
-
-
-
-
 .Fördelning-av-arv-bakgrund {
-  /*background-color: rgba(119, 118, 118, 0.718);*/
   background-image: url(pen.png);
   background-image: linear-gradient(
       to right,
@@ -207,7 +192,6 @@ h3{
 }
 
 .Upprätta-testamente-bakgrund {
-  /*background-color: rgba(119, 118, 118, 0.718);*/
   background-image: url(pen.png);
   background-image: linear-gradient(
       to right,
@@ -216,11 +200,9 @@ h3{
     ),
     url(pen.png);
   background-size: cover;
-  /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
-}
+ }
 
 .Ogiltighet-förverkande-återkallelse-bakgrund {
-  /*background-color: rgba(119, 118, 118, 0.718);*/
   background-image: url(pen2.png);
   background-image: linear-gradient(
       to right,
@@ -229,11 +211,9 @@ h3{
     ),
     url(pen2.png);
   background-size: cover;
-  /*skapar en bakgrundsbild som t'cker hela rutan och som har ett svagt filter över*/
-}
+ }
 
 .Nödfallstestamente-bakgrund {
-  /*background-color: rgba(119, 118, 118, 0.718);*/
   background-image: url(pen2.png);
   background-image: linear-gradient(
       to right,
@@ -265,7 +245,6 @@ footer {
     grid-template-areas:
       "nav nav"
       "main main"
-      /*"aside main"*/
       "footer footer";
   }
 
@@ -308,7 +287,7 @@ footer {
   }
 
   .heading{
-    font-size: 4rem; /*VAR 5 INNAN*/
+    font-size: 4rem; 
     padding-top: 2rem;
    
   }
@@ -316,7 +295,6 @@ footer {
 
 main {
   height: 400vh;
-  /*background-image: url(pillars.png);*/
   background-size: cover;
   width:100vw;
 }
@@ -343,7 +321,6 @@ padding-right:12rem;
     grid-template-areas:
       "nav nav"
       "main main"
-      /*"aside main"*/
       "footer footer";
   }
 
@@ -356,8 +333,4 @@ padding-right:12rem;
     height: 310vh;
 }
 
-.image-container{
-  width: 80vw;
-  height:100vh;
-}
 }

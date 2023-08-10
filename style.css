@@ -9,7 +9,6 @@
 
 html {
   font-size: 62.5%;
-  /*equals 10px*/
 }
 
 body,
@@ -20,7 +19,6 @@ html {
 body {
   margin: 0;
   display: grid;
-  /*min-height: 100vh;*/
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto 1.5rem;
   grid-template-areas:
@@ -40,15 +38,13 @@ body {
   padding: 3rem;
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 5px;
- 
-  
-  
 }
 
 .navigation {
   grid-area: nav;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to bottom, #a69064, #d0b888, #b9a273, #a69064, #8d784e, #947e53);
   background: linear-gradient(to bottom, #a69064, #d8c49a, #b9a273, #a69064, #8d784e, #947e53);
   color: white;
 }
@@ -112,60 +108,45 @@ main {
 }
 
 .main-pic {
-  background-image: url(Images/principle-limits-2.jpg);
-  background-image: url(Images/mainpic7.jpg);
-  background-image: url(Images/principle-limits-2.jpg);
+  background-image: url(Images/hero-image.png);
   background-size: cover;
-  height: 70vh;
+  height:43vh;
   width:100vw;
-}
-.text-on-pic {
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  left: 5%;
-  color: #fff;
-  z-index: 3;
 }
 
 .top-text-on-pic {
-  display: block;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 1;
-  width: 30rem;
-  animation-name: moveInLeft;
-  animation-duration: 4s;
-  animation-timing-function: ease-out;
-  backface-visibility: hidden;
-  font-family: Raleway;
-  /*gör så att texten inte studsar i slutet om den skulle göra det*/
+  display: none;
 }
 
 .bottom-text-on-pic {
-  margin-top: 1.5rem;
-  display: block;
-  font-size: 15px;
+  display: none;
+}
+
+.top-text-on-pic {
+  font-size: 3.8rem;
+  position: absolute;
+  left:65%;
+  top: 25%;
+  z-index: 3;
+}
+.bottom-text-on-pic {
   font-size: 1.7rem;
-  font-weight: 400;
-  line-height: 1.5;
-  /*font-family: Pinyon script;*/
-  color: #fff;
-  color: white;
-  animation: moveInRight 9s ease-out;
-  text-shadow: 2px 2px 10px #000;
-  font-family: Raleway;
+  position: absolute;
+  right: 1%;
+  left:73%;
+  top: 37%;
+  bottom:10%;
+  z-index: 3;
 }
 
 
-/*textens rörelser*/
+/*text movement*/
 
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    /*att den först ska va osynlig*/
     transform: translateX(-100px);
-    /*translates it in the x direction, and makes it be more to the left on x asis*/
+    /*translates it in the x direction, and makes it be more to the left on x axis*/
   }
   /*80% {
     transform: translatex(10px);
@@ -203,7 +184,7 @@ flex-direction: column;
 
 .pic-beside-text{
   background-image: url(Images/hammer-clear-background.png);
-margin-left:15rem;
+margin-left:14rem;
 margin-right: 2rem;
 margin-top: 4rem;
 margin-bottom: 2rem;
@@ -222,7 +203,6 @@ padding-right:4rem;
   padding-top:2rem;
   color: rgb(60, 60, 60);
   line-height: 2.4rem;
-  /*width:85vw;*/
 }
 
 h2 {
@@ -247,8 +227,6 @@ a{
   line-height: 1.8rem;
 }
 
-
-
 footer {
   grid-area: footer;
   padding: 3rem;
@@ -271,7 +249,6 @@ footer {
       "section section"
       "footer footer";
   }
-
  
   .menu-icon {
     display: none;
@@ -283,18 +260,13 @@ footer {
     flex-direction: column;
     font-weight: 500;
     padding-left: 1rem;
-    /*PLACERAR RUBRIK OCH NAV BREDVID VARANDRA*/ /**********************/
-    padding-right:1rem;
-    /*VADDERAR PÅ HÖGER SIDA AV NAV*/
+      padding-right:1rem;
     color: white;
   }
 
-
   .main-heading {
-    font-size: 4rem; /*VAR 5 INNAN*/
+    font-size: 4rem; 
     padding-top: 2rem;
-    
-    
   }
 
   .nav-links {
@@ -322,38 +294,58 @@ footer {
     font-size:1.7rem;
   }
   .main-pic {
-    background-image: url(Images/principle-limits-2.jpg);
-    background-image: url(Images/mainpic7.jpg);
-    background-image: url(Images/principle-limits-2.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
+    height:140vh;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .main-pic {
+    height:85vh;
     width:100vw;
   }
 
-  .text-on-pic {
+  .top-text-on-pic {
+    display: block;
+    font-weight: 800;
+  line-height: 1;
+  width: 30rem;
+  color:white;
+  animation-name: moveInLeft;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  backface-visibility: hidden;
+  font-family: Raleway;
+  text-shadow: 2px 2px 10px #514320;
+    font-size: 4.1rem;
     position: absolute;
-    right: 52%;
-    top: 48%;
-    color: #fff;
+    left:65%;
+    top: 25%;
     z-index: 3;
   }
 
-
-
-  .top-text-on-pic {
-    font-size: 45px;
-  }
-
   .bottom-text-on-pic {
-    font-size: 20px;
-  
-    
+    display: block;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color:#140e03;
+    animation: moveInRight 5s ease-out;
+    font-family: Raleway;
+    font-weight: 500;
+    position: absolute;
+    right: 1%;
+    left:73%;
+    top: 37%;
+    bottom:10%;
+    z-index: 3;
   }
 
   .intro-container{
     flex-direction: row;
-    
     }
+
   .pic-beside-text{
   margin-left:3rem;
   margin-top: 10rem;
@@ -367,7 +359,7 @@ footer {
     font-size: 1.7rem;
     font-family: 'Raleway';
     text-align: justify;
-  padding-left:7rem;
+    padding-left:7rem;
     padding-top:2rem;
     padding-bottom: 2rem;
     color: rgb(65, 65, 65);
@@ -386,9 +378,6 @@ footer {
     margin-bottom:3rem;
     font-family: "Raleway";
   }
-
-
-
 }
 @media screen and (min-width: 992px) {
   body {
@@ -408,6 +397,28 @@ footer {
     margin-bottom: 1rem;
   }
 
+  .main-pic {
+    height:110vh;
+    width:100vw;
+  }
+
+  .top-text-on-pic {
+    font-size: 5.1rem;
+    position: absolute;
+    left:65%;
+    top: 26%;
+    z-index: 3;
+  }
+  .bottom-text-on-pic {
+    font-size: 1.8rem;
+    position: absolute;
+    right: 1%;
+    left:72%;
+    top: 41%;
+    bottom:10%;
+    z-index: 3;
+  }
+
   h1 {
     font-size: 7rem;
   }
@@ -415,7 +426,6 @@ footer {
 
   .main-heading {
     font-size: 4rem;
-    /*VAR 7 INNAN*/
     padding-top: 2rem;
   }
 
