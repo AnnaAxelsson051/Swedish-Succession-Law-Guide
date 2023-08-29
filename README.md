@@ -13,11 +13,11 @@
 
 An informative law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing an efficient cost-free solution for legal information needs. The webpage is responsive on mobile, tablets and larger screens. 
 
-The objective was to create a public service platform that offers well-referenced content, simplifying the process of accessing valuable and relevant legal information eliminating the need to navigate complex laws and precedents.
+The objective was to create a public service platform that offers well-referenced content, simplifying the process of accessing valuable and relevant legal information, eliminating the need to navigate complex laws and precedents.
 
 ---
 
-## Technologies used:
+## Technologies used
 
 - HTML
 - CSS
